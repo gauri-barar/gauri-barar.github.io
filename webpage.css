@@ -1,0 +1,40 @@
+h1 {
+  color:#0592FE;font-family:Impact, Charcoal, sans-serif;
+}
+h2{
+  color:#BD580A;font-family:"Courier New", Courier, monospace; font-size: 30px
+}
+
+p {
+  color:#70B911;font-family: "Comic Sans MS", cursive, sans-serif; font-size: 20px
+}
+h3 {
+  color:#BD580A;font-family:"Courier New", Courier, monospace; font-size: 25px
+}
+div {
+  color:#53CE34;font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+
+
+
+.overlay {
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#0E55A6
+}
+
+.container:hover .overlay {
+  opacity: 1;}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
